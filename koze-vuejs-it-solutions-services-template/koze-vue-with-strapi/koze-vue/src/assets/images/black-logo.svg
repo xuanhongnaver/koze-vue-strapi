@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133" height="50" viewBox="0 0 133 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.154" y1="0.132" x2="0.812" y2="0.898" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a66bff"/>
+      <stop offset="0.569" stop-color="#d5158f"/>
+      <stop offset="1" stop-color="#fb64bf"/>
+    </linearGradient>
+  </defs>
+  <g id="Koze_Black" transform="translate(-66 -65)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(66 65)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+        <path id="Path_2" data-name="Path 2" d="M25.261,0A25.213,25.213,0,0,1,50,19.912l-12.686,0A13.064,13.064,0,0,0,25.261,12.06ZM17.587,14.523A13.106,13.106,0,0,0,14.67,17.41H1.188a25.2,25.2,0,0,1,16.4-16.234Zm-5.4,10.466A13.078,13.078,0,0,0,37.313,30.1H50a25.292,25.292,0,0,1-50-5.1Z" transform="translate(0 0)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <text id="Koze" transform="translate(126 101)" fill="#14042c" font-size="30" font-family="Jost" font-weight="800"><tspan x="0" y="0">Koze</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Koze - Vue.js IT Solutions & Services Template</title>
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="img/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#introduction" title="Introduction">Introduction</a></li>
+                <li><a href="#getting_started" title="Setup Development Envrionment">Development Environment Setup</a>
+                </li>
+                <li><a href="#documenter_cover">Pages Info</a></li>
+                <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+                <li><a href="#fonts_used" title="Fonts">Fonts</a></li>
+				<li><a href="#run_scss_file" title="Fonts">SCSS File Run</a></li>
+                <li><a href="#credits" title="Credits">Credits</a></li>
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+        <header class="site-header navbar-transparent"> 
+            <div class="banner auto-size" style="background-color: #455aa2">
+                <div class="container-fluid">
+                    <h1><strong>Koze - Vue.js</strong>  Documentation</h1>
+                </div>
+            </div>
+        </header>
+        
+        <main class="container-fluid"> 
+            <article class="main-content" role="main">
+                <section id="introduction">
+                    <div class="page-header">
+                        <h3>Introduction</h3>
+                    </div>
+                    <p><strong>Koze</strong> - Vue.js IT Solutions & Services Template</p>
+                </section>
+
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Local Development Environment Setup</h3>
+                    </div>
+                    <p>
+                        In order to kickstart the development of your web app with <strong>Koze</strong>, the very first thing is to setup an <b>Vue.js</b> development environment.
+                    </p>
+                    
+					<h6>Node.js & npm</h6>
+                    <ul>
+                        <li>Download Node.js from <a rel="noreferrer noopener" href="https://nodejs.org/en/download/" target="_blank">https://nodejs.org/en/download/ </a>and install it on your system. NPM comes bundled with Node.js</li>
+                        <li>Now check the version if everything is installed nicely like open the <code>terminal/bash/command prompt</code> and run <code>node -v</code> <code>npm -v</code> if you get any number then everything is just fine.
+                        </li>
+                    </ul>
+
+                    <p>
+                        Open the terminal and run the command <code>npm install -g @vue/cli</code>. To get more help on the <code class="language-murkup">Vue.js CLI</code> check out the <a target="_blank" href="https://cli.vuejs.org/guide/installation.html/">Vue.js CLI Guide</a>.
+                    </p>
+                    <div class="page-header">
+                        <h4>Vue.js</h4>
+                    </div>
+                    <ul>
+                        <h5>Introduction from <a href="https://vuejs.org/v2/guide/" target="_blank">Vue.js</a> official doc</h5>
+                        <li>
+                            Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
+                        </li>
+                        <li>If you want to more comfortable with <a href="https://vuejs.org/v2/guide/" target="_blank">Vue.js</a> please visit this <a href="https://www.vuemastery.com/courses/" target="_blank" rel="noopener noreferrer">Tutorial</a></li>
+                    </ul>
+					
+                    <div class="page-header">
+                        <h4>NPM Packages</h4>
+                    </div>
+                    <ul>
+                        <li>Before proceding you'll need to install npm packages. You can do this by running <code class="language-markup">npm install</code> from the root of your project to install all the necessary dependencies.</li>
+                    </ul>
+
+                    <div class="page-header">
+                        <h4>Development Server</h4>
+                    </div>
+                    <ul>
+                        <li>Run <code class="language-murkup">npm run serve</code> for a dev server. Navigate to <a href="localhost:8080/">localhost:8080/</a>. The app will autometically reload if you change any of the source files.</li>
+                    </ul>
+                    <div class="page-header">
+                        <h4>Building</h4>
+                    </div>
+                    <ul>
+                        <li>Run <code class="language-murkup">npm run build</code> to build the project.</li>
+                    </ul>
+
+                    <div class="page-header">
+                        <h4>More Help</h4>
+                    </div>
+                    <ul>
+                        <li>To get more help on the <code class="language-murkup">Vue.js CLI</code> check out the <a href="https://cli.vuejs.org/guide/">Vue.js CLI Guide</a>.</li>
+                    </ul>
+                </section>
+
+                <section id="documenter_cover">
+                    <div class="page-header">
+                        <h3>Pages Info</h3>
+                    </div>
+                    
+                    <div id="documenter_buttons"> </div>
+                    <ul>
+                        <li><b>Pages</b></li>
+                        <img src="./img/pages.png" alt="Image">
+						
+						<li><b>Pages Components</b></li>
+						
+                        <ul>
+                            <li><b>Home Demo One </b></li>
+                            <img src="./img/components.png" alt="Image">
+                        </ul>
+			
+                        <li>All Pages components are there & based on the pages name you will find the components folders inside components.</li>
+                    </ul>
+                    <hr>
+                    <h6 style="margin-top:20px"><strong>Template Features:</strong></h6>
+                    <ul>
+                        <li><strong>Pure Vue.js Without jQuery</strong></li> 
+                        <li><strong>Built On Vue.js 3.2 +</strong></li> 
+                        <li><strong>Multipage with Vue Router</strong></li> 
+                        <li><strong>3+ Landing Pages</strong></li> 
+						<li><strong>Attractive Homepage</strong></li>
+						<li>Responsive in Any Device</li>
+						<li><strong>Retina Ready</strong></li>
+						<li>Creative and Beautiful Layout</li>
+						<li>Fast, Lightweight & Powerful</li>
+						<li>Smooth Transition Effects</li>
+						<li><strong>ES6+</strong></li>
+						<li>Clean And Professional Coding</li>
+						<li><strong>Creative and Modern Design</strong></li>
+						<li><strong>Bootstrap 5x</strong></li>
+						<li>Google Font and Icon Used</li>
+						<li>Integrated With IcoFont</li>
+						<li>Easily Customizable</li>
+						<li><strong>Well Commented Code</strong></li>
+						<li>Detailed Documentation</li>
+                    </ul>
+                </section>
+                
+                <section id="dependencies">
+                    <div class="page-header">
+                        <h3>Dependencies</h3>
+                    </div>
+                    <p> Here are the <strong>dependencies</strong> list which being used in the Koze Vue.js Template:</p>
+<pre class="line-numbers">
+<code class="language-markup"> 
+"dependencies": {
+    "@meforma/vue-toaster": "^1.3.0",
+    "aos": "^2.3.4",
+    "axios": "^0.26.0",
+    "core-js": "^3.6.5",
+    "lightgallery": "^2.4.0",
+    "vue": "^3.2.31",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^4.0.12",
+    "vue3-carousel": "^0.1.36",
+    "vuex": "^4.0.2"
+},
+"devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^10.2.1"
+},
+</code>
+</pre class="brush:css">
+                </section>
+			
+                <section id="fonts_used">
+                    <div class="page-header">
+                        <h3>Fonts Used</h3>
+                    </div>
+					<p> By default, the template loads <strong>Roboto+Sans & Raleway+Sans</strong> font from Google Web Font Services, you can change the font with the one that suits you best. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p>
+					
+					<p>You will find the font code in the "<strong>style.scss</strong> file: <code class=" language-css">src/assets/css/style<span class="token number">.</span>scss</code></p>
+
+<pre class="line-numbers">
+<code class="language-css">
+&lt;link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet"&gt;
+
+:root {
+    --main-font-family: 'Open Sans', sans-serif;
+    --heading-font-family: 'Jost', sans-serif;
+    --monoton-font-family: 'Monoton', cursive;
+    --main-color: #FEB302;
+    --optional-color: #3E019A;
+    --white-color: #ffffff;
+    --black-color: #14042C;
+    --paragraph-color: #646464;
+    --font-size: 16px;
+    --transition: .6s;
+    --btn-gradient-color: radial-gradient(circle, #feb302, #f8c600, #eed900, #e0ec00, #cdff05);
+}
+</code>
+</pre>
+
+<p><b>Note:</b> After SCSS file run then it will be work</p>
+                </section>
+			
+				<section id="run_scss_file">
+                    <div class="page-header">
+                        <h3>How to Run The SCSS File</h3>
+                    </div>
+                    
+					<p>Please open the file Visual Studio Code Editor. And follow the video tutorial.</p>
+					<p>Here the Link: <a href="https://www.youtube.com/watch?v=0MWmv1Gvv5w" target="_blank">https://www.youtube.com/watch?v=0MWmv1Gvv5w</a></p>
+                </section>
+		 
+                <section id="credits">
+                    <div class="page-header">
+                        <h3>Credits</h3>
+                    </div>
+                    <strong>Images</strong><br>
+                    <a href="https://unsplash.com/" target="_blank">Unsplash</a><br />
+                    <a href="https://burst.shopify.com/" target="_blank">Burst</a><br />
+                    <a href="https://www.freepik.com/" target="_blank">Feeepik</a><br />
+                    <a href="https://www.pexels.com/" target="_blank">Pexels</a><br />
+
+                    <div class="height-15"></div>
+
+                    <strong>Packages</strong><br>
+                    
+                    <a href="https://v3.vuejs.org/" target="_blank">Vue.js / Vue 3</a><br />
+                    <a href="https://www.npmjs.com/package/vue3-carousel" target="_blank">Vue3 Carousel</a><br />
+                    <a href="https://www.npmjs.com/package/axios" target="_blank">Axios</a><br />
+                    <a href="https://www.vuemastery.com/blog/vue-router-a-tutorial-for-vue-3/" target="_blank">Vue Router</a><br />
+                    <a href="https://www.lightgalleryjs.com/docs/vue/" target="_blank">lightGallery Vue
+                    </a><br />
+                    <a href="https://dev.to/sabbirsobhani/aos-scrolling-animation-with-vuejs-3-4hp7" target="_blank">AOS</a><br />
+                    <a href="https://vuex.vuejs.org/installation.html" target="_blank">Vuex</a><br />
+
+                    <a href="https://fonts.google.com/" target="_blank">Google Fonts</a><br />
+                </section>
+                
+                <section id="supports">
+                    <div class="page-header">
+                        <h3></h3>
+                    </div>
+                    <h2>24-Hour Turnaround Support:</h2>
+                    <ul>
+                        <li>Quick, Dedicated & Professional Support!</li>
+                        <li>We only provide support through our ticketing system. Please submit your ticket by visiting the <a href="https://support.envytheme.com/" target="_new">EnvyTheme Support System</a>. </li>
+                    <li>For any pre-purchase query, please use live chat on the item demo site also, email, and the item’s comment section on ThemeForest. Thanks!</li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; 2022. All right reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
